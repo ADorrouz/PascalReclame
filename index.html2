@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mon Premier Site Web</title>
+    <!-- Lien vers une feuille de style externe (si tu en as une) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- En-tête du site -->
+    <header>
+        <h1>Bienvenue sur mon site web !</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section principale du contenu -->
+    <main>
+        <section id="accueil">
+            <h2>Bienvenue sur mon site</h2>
+            <p>C'est une page d'exemple pour montrer la structure de base d'un site web.</p>
+        </section>
+
+        <section id="about">
+            <h2>À propos de ce site</h2>
+            <p>Ce site est créé pour montrer comment démarrer un projet web avec HTML.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour me contacter, vous pouvez m'envoyer un email à <a href="mailto:exemple@mail.com">exemple@mail.com</a>.</p>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Lien vers un script JavaScript externe (si nécessaire) -->
+    <script src="script.js"></script>
+</body>
+</html>
